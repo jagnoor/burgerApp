@@ -10,7 +10,7 @@ connection=mysql.createConnection(process.env.JAWSDB_URL)
  connection = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "suman1713",
+  password: "root",
   database: "burgers_db"
 });
 };
@@ -19,7 +19,8 @@ connection.connect(function(err) {
     console.error("error connecting: " + err.stack);
     return;
   }
-  console.log("connected as id " + connection.threadId);
+  console.log("connected as id " + connection.threadId + "\n", 
+            "connected to localhost:" + 8080);
 });
 
 module.exports = connection;
