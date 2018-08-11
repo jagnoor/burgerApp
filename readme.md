@@ -1,7 +1,7 @@
 
 
 # Eat-Da-Burger!
-A Application With Node.js/Express/MySQL/Handlebars
+A Application With Node.js/Express/MySQL/Handlebars/Bootstrap
 
 ## Description
 
