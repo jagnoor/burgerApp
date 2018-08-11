@@ -1,25 +1,30 @@
 {
-  "name": "Homework12",
+  "name": "eat-da-burger",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A burger logger with MySQl, Node, Express, Hnadlebars and a homemade ORM.",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trysumn17/Eat-Da-Burger-2.git"
+  },
+  "author": "Suman",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trysumn17/Eat-Da-Burger-2.git"
+  },
+  "homepage": "https://github.com/trysumn17/Eat-Da-Burger-2#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "init": "^0.1.2",
-    "method-override": "^3.0.0",
+    "gulp": "^3.9.1",
+    "method-override": "^2.3.10",
     "mysql": "^2.16.0",
     "mysql2": "^1.6.1",
-    "require": "^2.4.20",
     "sequelize": "^4.38.0"
-  },
-  "devDependencies": {},
-  "description": ""
+  }
 }
