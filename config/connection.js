@@ -19,8 +19,8 @@ connection.connect(function(err) {
     console.error("error connecting: " + err.stack);
     return;
   }
-  console.log("connected as id " + connection.threadId + "\n", 
-            "connected to localhost:" + 8080);
+  console.log("connected as id " + connection.threadId + "\n"+ 
+            "http://localhost:8080/");
 });
 
 module.exports = connection;
