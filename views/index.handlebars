@@ -7,7 +7,7 @@
                     {{this.burger_name}}
                     <form action="/{{this.id}}?_method=PUT" method="POST">
                         <input type="hidden" name="devoured" value="true">
-                        <button class="button btn-danger" type="submit">Devour It!</button>
+                        <button class="button btn-success" type="submit">Eat The Burger </button>
                         <br>
                         <br>
                     </form>
@@ -34,7 +34,7 @@
 
     </div>
     <div class="col-md-4">
-    <h6>Devoured Burgers:</h6>
+    <h6>Burgers: Devoured </h6>
             <hr>
             <ul>
                 {{#each burgers}} {{#if this.devoured}}
