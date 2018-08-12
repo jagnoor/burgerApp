@@ -21,7 +21,7 @@ To run the application locally, first clone this repository with the following c
 	
 Next, install the application dependencies.
 
-	cd burgerapp
+	cd burgerApp
 	npm install express
 	npm install express-handlebars
 	npm install body-parser
