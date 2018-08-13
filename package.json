@@ -1,0 +1,36 @@
+{
+  "name": "burgerapp",
+  "version": "1.0.0",
+  "description": "This application demonstrates a simple full stack application with a front end implemented with HTML/CSS and elements from the Bootstrap framework and the backend implemented with Node.js and Express. HTML templating is done with the help of Handlebars.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "nodemon": "^1.18.3",
+    "sequelize": "^4.38.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagnoor/burgerApp.git"
+  },
+  "keywords": [
+    "\"burgers\"",
+    ":Eat-da-burger\"",
+    "\"Jag-burger\""
+  ],
+  "author": "Jagnoor Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagnoor/burgerApp/issues"
+  },
+  "homepage": "https://github.com/jagnoor/burgerApp#readme"
+}
