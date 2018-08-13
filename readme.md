@@ -11,7 +11,7 @@ The user may enter any burger name to add it to the menu. This also adds the new
 
 ## Demo
 
-A online demo (hosted on Heroku) can be found here: https://burgerappjag.herokuapp.com/
+A online demo (hosted on Heroku) can be found here: https://pure-depths-47311.herokuapp.com/
 
 ## Installation
 
